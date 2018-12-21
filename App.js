@@ -60,7 +60,7 @@ const AppNavigator = createStackNavigator(
 
 const AppContainer = createAppContainer(AppNavigator);
 
-const uriPrefix = Linking.makeUrl();
+const uriPrefix = Linking.makeUrl("") + "/--/";
 
 export default class App extends React.Component {
   componentDidMount() {
